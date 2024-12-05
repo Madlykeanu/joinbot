@@ -1,0 +1,15 @@
+{
+    "server": {
+        "host": "play.earthvision.eu",
+        "port": 25565,
+        "version": "1.21.1"
+    },
+    "accounts": [
+        { "name": "Bot1" },
+        { "name": "Bot2" },
+        { "name": "Bot3" },
+        { "name": "Bot4" },
+        { "name": "Bot5" },
+        { "name": "Bot6" }
+    ]
+}

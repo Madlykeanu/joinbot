@@ -1,0 +1,12 @@
+{
+  "name": "joinbot",
+  "version": "1.0.0",
+  "description": "Minecraft bot using mineflayer for multiple accounts",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "mineflayer": "^4.14.0"
+  }
+}
