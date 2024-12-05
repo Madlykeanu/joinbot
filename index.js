@@ -82,6 +82,21 @@ class BotManager {
         }
         
         console.log('All bots initialization completed!');
+       /*
+        // Start the B E A N chant for all bots
+        this.bots.forEach(bot => {
+            const delay = Math.floor(Math.random() * (6000 - 3000 + 1)) + 3000; // Random delay between 3-6 seconds
+            setTimeout(() => {
+                bot.chat('B E A N');
+                // Set up recurring random interval
+                setInterval(() => {
+                    const nextDelay = Math.floor(Math.random() * (6000 - 3000 + 1)) + 3000;
+                    bot.chat('B E A N');
+                }, delay);
+            }, delay);
+        });
+        */
+        
     }
 }
 
